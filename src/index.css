@@ -1,0 +1,383 @@
+/* main home sec */
+
+/* .App {
+  background-image: url("home/background-home-desktop.jpg");
+} */
+
+
+.App {
+  padding: 100px;
+  /* width: 100%; */
+}
+
+.home{
+  padding: 15px;
+}
+
+
+
+/* nav section */
+
+.icon h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  color:red;
+}
+
+.navheader{
+  display: flex;
+  flex-direction: row;
+}
+
+.links ul  {
+  display: flex;
+  list-style-type: none;
+  margin: 2rem 0 0 40rem;
+}
+
+.links ul a {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 40px;
+  color:black;
+  text-transform: capitalize;
+}
+
+.links ul a:last-of-type:hover {
+  /* font-size: 15px; */
+  color: red;
+  transition: 1s;
+}
+/* moon section */
+.blog-list h1 {
+  font-size: 60px;
+  margin-left: 4rem;
+  text-transform: capitalize;
+}
+.blog-preview {
+  margin: 5rem 0 0 8rem;
+}
+
+.blog-preview h2 {
+  color: red;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+
+.blog-preview:hover {
+  box-shadow: 2px 2px 15px black;
+  padding: 10px;
+  width:1000px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.blog-preview p {
+  font-size:large;
+  text-transform: capitalize;
+}
+
+.moon-head div {
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-preview p {
+  color: black;
+}
+
+.blog-details h1 {
+  font-size: xx-large;
+  color:#f1356d;
+  margin-bottom:10px;
+}
+
+.blog-details p {
+  font-size: large;
+}
+
+.blog-details h2 {
+  font-size: larger;
+  max-width: 90%;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color:white;
+  border:0;
+  padding:10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: x-large;
+  text-transform: capitalize;
+  justify-content: center;
+}
+
+.create {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.create h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  /* margin-left: 150px; */
+  color: rgb(205, 59, 59);
+}
+
+.create label {
+  font-size: 30px;
+  text-align: left;
+  display:block;
+}
+
+.create input, textarea, select {
+  width: 500px;
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+.create select {
+  padding: 15px;
+  width: 522px;
+  font-size: large;
+}
+
+.create option {
+  font-size: large;
+}
+
+.create button {
+  padding: 15px;
+  font-size: large;
+  background-color:#f1356d;
+  color: white;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+#btn {
+  display: none;
+}
+
+/* media query */
+@media screen and (max-width:450px) {
+
+  #btn {
+    display: block;
+    cursor: pointer;
+    font-size: x-large;
+    border: none;
+    background-color:white;
+    visibility: hidden;
+  }
+
+  .App {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 50px;
+  }
+
+  .icon h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    color:red;
+    margin:-4rem 0 0 -8rem;
+  }
+
+  .links {
+    position: fixed;
+    display:block;
+  }
+
+  .links ul  {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: -3.5rem 0 0 4rem;
+  }
+
+  .links ul a {
+    text-decoration: none;
+    margin:5px 0 0 15px;
+    font-size: 15px;
+    color:black;
+    text-transform: capitalize;
+  }
+
+  /* moon section */
+
+  .blog-list h1 {
+    font-size: 50px;
+    margin:-2rem 0 0 -2rem;
+    text-transform: capitalize;
+  }
+
+  .blog-preview {
+    margin: 2rem 0 0 1rem;
+  }
+
+  .blog-preview h2 {
+    color: red;
+    text-transform: capitalize;
+    font-size: large;
+  }
+
+  .blog-preview:hover {
+    box-shadow: 2px 2px 15px black;
+    padding: 10px;
+    width:100%;
+    border-radius: 10px;
+    transition: 1s;
+  }
+
+  .blog-preview p {
+    font-size:medium;
+    text-transform: capitalize;
+  }
+
+  /*  text inside */
+
+  .blog-details article {
+    margin:0 auto;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog-details h2 {
+    font-size: larger;
+    width: 100%;
+    text-align:start;
+  }
+
+.blog-details h1 {
+  font-size: x-large;
+  color:#f1356d;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color:white;
+  border:0;
+  padding:5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+  text-transform: capitalize;
+  justify-content: center;
+  width:50%;
+}
+
+/* create section */
+
+.create {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.create label {
+  font-size: 20px;
+  text-align: left;
+  display:block;
+}
+
+.create input, textarea, select {
+  width: 100%;
+  display: block;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+.create select {
+  padding: 15px;
+  width: 300px;
+  font-size: large;
+}
+
+.create option {
+  font-size: large;
+  width:60%
+}
+}
+
+/* media querry for galaxy fold */
+
+@media screen and (max-width:280px) {
+  .icon h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color:red;
+    margin:-4rem 0 0 -8rem;
+  }
+
+  .links ul  {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: -4rem 0 0 -1rem;
+  }
+
+  /* moon section */
+
+  .blog-list h1 {
+    font-size: 30px;
+    margin:-2rem 0 0 -4rem;
+    text-transform: capitalize;
+  }
+
+  .blog-preview {
+    margin: 2rem 0 0 -3rem;
+  }
+  .blog-details article {
+    margin:-4rem 0 0 -3rem;
+  }
+
+  .blog-details h1 {
+    font-size: larger;
+    color:#f1356d;
+    margin-left:-0.5rem;
+  }
+
+  .blog-details p {
+    font-weight: bolder;
+    margin-left:-0.3rem;
+    margin-top: -0.2rem;
+  }
+
+  .blog-details h2 {
+    font-size: larger;
+    width: 150%;
+    text-align:start;
+    margin: 0 0 0 1rem;
+    font-weight: lighter;
+  }
+
+  /* create section */
+
+.create {
+  max-width: 95%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.create select {
+  padding: 15px;
+  width: 200px;
+  font-size: large;
+}
+
+}

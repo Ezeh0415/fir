@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "how my weekend went",
+      "body": "fuck of heaters",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "hello",
+      "body": "I am a front-end developer. I can provide clean code and pixel design. I also make the website more & more interactive with web animations. I have always been interested in web development, and i have the necessary skills required for the role. i have a good understanding of HTML, CSS, JAVASCRIPT and Jqueries",
+      "author": "mario",
+      "id": 2
+    }
+  ]
+}
